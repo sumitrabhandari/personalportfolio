@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="/jquery-3.6.3.min.js"></script>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- header section start -->
+
+    <div class="header">
+        <div class="logo">
+            <h2><a href="">PORTFOLIO</a></h2>
+
+        </div>
+        <div class="menu" id="mynav">
+            <nav>
+                <ul>
+                    <li><ion-icon name="home-outline" class="home-icon"></ion-icon><a href="#myhome">Home <div
+                                class="line"></div></a></li>
+                    <li><ion-icon name="woman-outline" class="home-icon"></ion-icon><a href="#aboutme">About <div
+                                class="line"></div></a></li>
+                    <li><ion-icon name="color-filter-outline" class="home-icon"></ion-icon><a href="#myskills">Skills
+                            <div class="line"></div>
+                        </a></li>
+                    <li><ion-icon name="folder-outline" class="home-icon"></ion-icon><a href="#project">Projects <div
+                                class="line"></div></a></li>
+                    <li><ion-icon name="folder-outline" class="home-icon"></ion-icon><a href="#project">Services <div
+                                class="line"></div></a></li>
+                    <li><ion-icon name="help-outline" class="home-icon"></ion-icon><a href="#contact">Contacts <div
+                                class="line"></div></a></li>
+
+                    <!-- <ion-icon name="moon" id="moon-icon"></ion-icon> -->
+                </ul>
+
+            </nav>
+        </div>
+        <div class=" mobile-nav-icon mobile-bar-icon" onclick="opennav()" id="openmenu"><ion-icon
+                name="menu-outline"></ion-icon>
+        </div>
+        <div class=" mobile-nav-icon mobile-cross-icon" onclick="closenav()" id="closemenu"><ion-icon
+                name="close-outline"></ion-icon>
+        </div>
+    </div>
+
+
+    <!-- home section -->
+    <div class="container-fluid py-5 home-section" id="myhome">
+        <div class="circle-container">
+            <div class="circle"></div>
+            <div class="circle1"></div>
+          </div>          
+        <div class="row home-page">
+            <div class="col-lg-8 col-md-6 col-12 home-page-text">
+                <h6 class="hello-i-am-text hello-background-circle">HELLO I AM ,</h6>
+                <h2 class="i-m-sumitra-text">Sumitra <span class="span-color-change-content">Bhandari</span></h2>
+                <div class="frontend-developer-content">
+                    <h4 class="frontend-developer-content-text">Front End <span class="span-color-change-content">
+                            Developer.</span></h4>
+                </div>
+                <p class="currently-studying-content">Currently studying Bsc.Csit at Far Western University </p>
+                <div class="links">
+                    <div>
+                        <a href="https://www.facebook.com/" class="social-links"><ion-icon
+                                name="logo-facebook"></ion-icon></a>
+                        <a href=""><ion-icon name="logo-linkedin" class="social-links"></ion-icon></a>
+                        <a href="https://www.instagram.com/" class="social-links"><ion-icon
+                                name="logo-instagram"></ion-icon></a>
+                        <a href="https://github.com/" class="social-links"><ion-icon name="logo-github"></ion-icon></a>
+                    </div>
+                    <div class="resume-btn"><a
+                            href="https://drive.google.com/file/d/1G6Nu34z2sthc9Ka7VsZYibry8cFZNpRl/view?usp=sharing">
+                            View Resume</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <img src="img/sumitra.jpg" alt="" class="w-100 home-page-img">
+            </div>
+        </div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffff" fill-opacity="1"
+                d="M0,224L48,197.3C96,171,192,117,288,128C384,139,480,213,576,229.3C672,245,768,203,864,176C960,149,1056,139,1152,160C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+    <!--============================================= About me section================================ -->
+    <div class="container-fluid py-5">
+        <h2 class="aboutme-heading text-center">About <span class="span-color-change-content">Me</span> </h2>
+        <p class="text-center px-5">I am a front-end developer with expertise in HTML, CSS, and JavaScript. I create
+            visually appealing and user-friendly websites that exceed client expectations.I am also good at wordpress. I
+            am dedicated to staying up-to-date with the latest technologies and trends.</p>
+    </div>
+    <div class="row mx-5">
+        <div class="col-lg-6 col-md-6 col-12 text-center about-me-section-container">
+            <img src="img/education-img.png" alt="" class="aboutme-icon-img pb-3">
+            <h4 class="aboutme-subheading">My Education:</h4>
+            <p>Bsc.CSIT running at Farwestern University,
+                +2 science was from Kanchan Vidya Mandir Secondary School.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12  text-center about-me-section-container">
+            <img src="img/ex-removebg-preview.png" alt="" class=" my-expriession-img-icon pb-3">
+            <h4 class="aboutme-subheading">My Exprience:</h4>
+            <p>I am currently interning at Sofsee Tech Pvt. Ltd, passionate about creating engaging user experiences.
+                Skilled in HTML, CSS, and JavaScript, always looking for opportunities to learn and grow as a developer.
+            </p>
+        </div>
+    </div>
+    <!-- services section -->
+    <div class="skill-container container-fluid py-5">
+        <h2 class="aboutme-heading text-center">My <span class="span-color-change-content">Services</span> </h2>
+        <div class="row m-5">
+            <div class="col-lg-4 col-md-4 col-12 mb-5">
+                <div class=" my-services-content py-3">
+                    <div class="my-services-icon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></div>
+                    <h4 class="fw-bold">Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consectetur qui, tempore
+                        cumque praesentium nam quae fuga distinctio! Est, ad aliquid doloremque nemo quod et qui magnam
+                        ratione obcaecati pariatur.</p>
+                    <button class="read-more-button"><a href="">Read More</a></button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mb-5">
+                <div class="my-services-content py-3">
+                    <div class="my-services-icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
+                    <h4 class="fw-bold">Fast Performance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consectetur qui, tempore
+                        cumque praesentium nam quae fuga distinctio! Est, ad aliquid doloremque nemo quod et qui magnam
+                        ratione obcaecati pariatur.</p>
+                    <button class="read-more-button"><a href="">Read More</a></button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="my-services-content py-3">
+                    <div class="my-services-icon"><i class="fa fa-code" aria-hidden="true"></i></div>
+                    <h4 class="fw-bold">Clean Code</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consectetur qui, tempore
+                        cumque praesentium nam quae fuga distinctio! Est, ad aliquid doloremque nemo quod et qui magnam
+                        ratione obcaecati pariatur.</p>
+                    <button class="read-more-button"><a href="">Read More</a></button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!--====================================================== skils section===================================== -->
+    <div class="skill-container container-fluid py-5">
+        <h2 class="aboutme-heading text-center py-5">My <span class="span-color-change-content">Skills</span> </h2>
+        <div class="row px-4">
+            <div class="col-lg-6 col-md-6 col-12 personal-skill-section mb-5">
+                <h5 class="text-center fw-bold"><span class="skill-subheading-text-color">Personal</span> Skills</h5>
+                <div class="skill-title my-3">
+                    <h6>Communication</h6>
+                    <div class="percent-section">
+                        <div class="communication-percent  green-bg">85%</div>
+                    </div>
+                </div>
+                <div class="skill-title my-3">
+                    <h6>Team Work</h6>
+                    <div class="percent-section">
+                        <div class="teamwork-percent  green-bg">80%</div>
+                    </div>
+                </div>
+                <div class="skill-title my-3">
+                    <h6>Leadership</h6>
+                    <div class="percent-section">
+                        <div class="leadership-percent  green-bg">85%</div>
+                    </div>
+                </div>
+                <div class="skill-title my-3">
+                    <h6>langauge</h6>
+                    <div class="percent-section">
+                        <div class="langauge-percent  green-bg">55%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12 personal-skill-section">
+                <h5 class="text-center fw-bold"><span class="skill-subheading-text-color">Professional</span> Skills
+                </h5>
+                <div class="skill-title my-3">
+                    <h6>HTML/CSS</h6>
+                    <div class="percent-section">
+                        <div class="HTMLCSS-percent green-bg">80%</div>
+                    </div>
+                </div>
+                <div class="skill-title my-3">
+                    <h6>JS/JQuery</h6>
+                    <div class="percent-section">
+                        <div class="js-percent green-bg">60%</div>
+                    </div>
+                </div>
+                <div class="skill-title my-3">
+                    <h6>Bootstrap</h6>
+                    <div class="percent-section">
+                        <div class="bootstrap-percent  green-bg">70%</div>
+                    </div>
+                </div>
+                <div class="skill-title my-3">
+                    <h6>Wordpress</h6>
+                    <div class="percent-section">
+                        <div class="wordpress-percent  green-bg">80%</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ====================== My works section ======================= -->
+
+    <div class="container-fluid my-work-content" id="project">
+        <h2 class="aboutme-heading text-center py-5">Latest <span class="span-color-change-content">Projects</span>
+        </h2>
+        <div class="row mx-3 py-5">
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <div class="my-services-content">
+                    <h3 class="text-primary fw-bold fs-1">facebook</h3>
+                    <h5>FB Login Clone</h5>
+                    <p>I have successfully completed a project to create a responsive Facebook clone. Using my expertise
+                        in HTML5, CSS, JavaScript and Bootstrap.</p>
+                    <div class="view-project-btn my-4"> <a href="https://heroic-longma-aabaaf.netlify.app">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <div class="my-services-content">
+                    <h3 class="text-primary fw-bold fs-1">facebook</h3>
+                    <h5>FB Login Clone</h5>
+                    <p>I have successfully completed a project to create a responsive Facebook clone. Using my expertise
+                        in HTML5, CSS, JavaScript and Bootstrap.</p>
+                    <div class="view-project-btn my-4"> <a href="https://heroic-longma-aabaaf.netlify.app">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <div class="my-services-content">
+                    <h3 class="text-primary fw-bold fs-1">Wordpress</h3>
+                    <h5>Portfolio Website</h5>
+                    <p> I have successfully completed my project portfolio using WordPress.My project includes
+                        customizing WordPress themes,and implementing responsive layouts for optimal viewing on
+                        different devices. </p>
+                    <div class="view-project-btn my-4"> <a href="https://manojbudhaayer.com.np">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--============================================================ contact page section ======================================================-->
+
+    <div class="container-fluid py-5" id="contact">
+        <h2 class="aboutme-heading text-center pt-5">Get In <span class="span-color-change-content">Touch</span> </h2>
+        <p class="px-5 pb-5 text-center">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+        <div class="row px-4">
+            <div class="col-lg-4 col-md-4 col-12 mb-3">
+                <div class="contact-info">
+                    <div class="icon-bg text-center"><i class="fa fa-phone phone-icon" aria-hidden="true"></i></div>
+                    <h4 class="text-left pt-3">Contact No.</h4>
+                    <a href="tel:9844136610">9844136610</a><br>
+                    <a href="tel:9844136610">9844136610</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mb-3">
+                <div class="contact-info">
+                    <div class="icon-bg text-center"><i class="fa fa-envelope phone-icon" aria-hidden="true"></i></div>
+                    <h4 class="text-left pt-3">Email Address</h4>
+                    <a href="mailto:sumitrabhandari127@gmail.com">sumitrabhandari127@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="contact-info">
+                    <div class="icon-bg text-center"><i class="fa fa-location-arrow phone-icon" aria-hidden="true"></i>
+                    </div>
+                    <h4 class="text-left pt-3">Location</h4>
+                    Bedkot-03 Kanchanpur
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row m-5">
+        <div class="col-lg-5 order-2">
+            <form class="contact-form">
+                <label for="name" class="fw-bold mb-1"> Full Name <span class="fw-bold text-danger">*</span></label>
+                <input type="text" id="name" name="name" placeholder="Sumitra Bhandari" class="info" required><br><br>
+                <label for="name" class="fw-bold mb-1">Email Address<span class="fw-bold text-danger">*</span></label><br />
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" class="info emai-input"
+                    required><br><br>
+                <label for="name" class="fw-bold mb-1">Contact Number<span class="fw-bold text-danger">*</span></label>
+                <input type="number" id="number" name="number" placeholder="98*********" class="info emai-input"
+                    required><br><br>
+                <label for="message" class="fw-bold mb-1">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message....."
+                    class=" info text-arear"></textarea><br><br>
+            </form>
+            <div class="send-btn mb-3" type="Submit"><a href="">Submit now</a></div>
+        </div>
+        <div class="col-lg-7 order-1">
+            <img src="img/contact img.jpg " alt="" class="w-100">
+        </div>
+       
+    </div>
+    <button id="topBtn"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  
+    </div>
+    <div class="footer">
+        <h6>©2023 Build by Sumitra Bhandari , Nepal</h6>
+    </div>
+    <!--==========================header javascript section ============================================ -->
+    <script>
+        function opennav() {
+            document.getElementById("mynav").style.width = "260px";
+            document.getElementById("openmenu").style.display = "none";
+            document.getElementById("closemenu").style.display = "block";
+        }
+        function closenav() {
+            document.getElementById("mynav").style.width = "0px";
+            document.getElementById("openmenu").style.display = "block";
+            document.getElementById("closemenu").style.display = "none";
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 40) {
+                    $('#topBtn').fadeIn();
+                } else {
+                    $('#topBtn').fadeOut();
+                }
+            });
+
+            $("#topBtn").click(function () {
+                $('html ,body').animate({ scrollTop: 0 }, 800);
+            });
+        });
+    </script>
+
+    <!-- ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
