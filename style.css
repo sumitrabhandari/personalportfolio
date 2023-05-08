@@ -165,10 +165,14 @@ body {
     position: relative;
     height: 125vh;
 }
-
+.border{
+    border: none !important;
+}
 .home-section .waves {
+    border: none !important;
     position: absolute;
-    bottom: 0;
+    bottom: 
+    0px;
     left: 0;
     width: 100%;
     /* margin-bottom: -20px !important; */
@@ -257,8 +261,6 @@ body {
     border-radius: 10px;
     font-size: 18px;
     font-weight: 600;
-
-
 }
 
 .resume-btn:hover {
@@ -297,7 +299,7 @@ body {
 
 @media(max-width:390px) {
     .links {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 }
 
