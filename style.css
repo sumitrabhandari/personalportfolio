@@ -296,7 +296,6 @@ body {
         margin-bottom: 20px;
     }
 }
-
 @media(max-width:415px) {
     .links {
         flex-direction: column !important;
